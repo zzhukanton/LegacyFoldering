@@ -191,6 +191,7 @@
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="libman.json" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -202,6 +203,44 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Scripts\react-dom\cjs\react-dom-server.browser.development.js" />
+    <Content Include="Scripts\react-dom\cjs\react-dom-server.browser.development.min.js" />
+    <Content Include="Scripts\react-dom\cjs\react-dom-server.browser.production.min.js" />
+    <Content Include="Scripts\react-dom\cjs\react-dom-server.node.development.js" />
+    <Content Include="Scripts\react-dom\cjs\react-dom-server.node.development.min.js" />
+    <Content Include="Scripts\react-dom\cjs\react-dom-server.node.production.min.js" />
+    <Content Include="Scripts\react-dom\cjs\react-dom-test-utils.development.js" />
+    <Content Include="Scripts\react-dom\cjs\react-dom-test-utils.development.min.js" />
+    <Content Include="Scripts\react-dom\cjs\react-dom-test-utils.production.min.js" />
+    <Content Include="Scripts\react-dom\cjs\react-dom.development.js" />
+    <Content Include="Scripts\react-dom\cjs\react-dom.development.min.js" />
+    <Content Include="Scripts\react-dom\cjs\react-dom.production.min.js" />
+    <Content Include="Scripts\react-dom\cjs\react-dom.profiling.min.js" />
+    <Content Include="Scripts\react-dom\umd\react-dom-server.browser.development.js" />
+    <Content Include="Scripts\react-dom\umd\react-dom-server.browser.development.min.js" />
+    <Content Include="Scripts\react-dom\umd\react-dom-server.browser.production.min.js" />
+    <Content Include="Scripts\react-dom\umd\react-dom-test-utils.development.js" />
+    <Content Include="Scripts\react-dom\umd\react-dom-test-utils.development.min.js" />
+    <Content Include="Scripts\react-dom\umd\react-dom-test-utils.production.min.js" />
+    <Content Include="Scripts\react-dom\umd\react-dom.development.js" />
+    <Content Include="Scripts\react-dom\umd\react-dom.development.min.js" />
+    <Content Include="Scripts\react-dom\umd\react-dom.production.min.js" />
+    <Content Include="Scripts\react-dom\umd\react-dom.profiling.min.js" />
+    <Content Include="Scripts\react\cjs\react-jsx-dev-runtime.development.js" />
+    <Content Include="Scripts\react\cjs\react-jsx-dev-runtime.development.min.js" />
+    <Content Include="Scripts\react\cjs\react-jsx-dev-runtime.production.min.js" />
+    <Content Include="Scripts\react\cjs\react-jsx-dev-runtime.profiling.min.js" />
+    <Content Include="Scripts\react\cjs\react-jsx-runtime.development.js" />
+    <Content Include="Scripts\react\cjs\react-jsx-runtime.development.min.js" />
+    <Content Include="Scripts\react\cjs\react-jsx-runtime.production.min.js" />
+    <Content Include="Scripts\react\cjs\react-jsx-runtime.profiling.min.js" />
+    <Content Include="Scripts\react\cjs\react.development.js" />
+    <Content Include="Scripts\react\cjs\react.development.min.js" />
+    <Content Include="Scripts\react\cjs\react.production.min.js" />
+    <Content Include="Scripts\react\umd\react.development.js" />
+    <Content Include="Scripts\react\umd\react.development.min.js" />
+    <Content Include="Scripts\react\umd\react.production.min.js" />
+    <Content Include="Scripts\react\umd\react.profiling.min.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -216,17 +255,14 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Account\Login.cshtml" />
     <Content Include="Views\Account\Register.cshtml" />
-    <Content Include="Views\Manage\AddPhoneNumber.cshtml" />
-    <Content Include="Views\Manage\ChangePassword.cshtml" />
     <Content Include="Views\Manage\Index.cshtml" />
     <Content Include="Views\Manage\ManageLogins.cshtml" />
-    <Content Include="Views\Manage\SetPassword.cshtml" />
-    <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Scripts\app\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
